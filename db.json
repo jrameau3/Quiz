@@ -1,0 +1,164 @@
+{
+  "quiz1": [
+    {
+      "id": 1,
+      "questionType": "multiple_choice",
+      "questionText": "1. Inside which HTML element do we put the JavaScript?",
+      "correctAnswer": "<script>",
+      "options": ["<javascript>", "<js>", "<script>", "<scripting>"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 2,
+      "questionType": "checkbox",
+      "questionText": "2. Where is the correct place to insert a JavaScript?",
+      "correctAnswer": ["The <head> section","The <body> section"],
+      "options": ["The <head> section", "The <body> section", "The <h1> section", "All of the above"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 3,
+      "questionType": "true_false",
+      "questionText": "3. The external JavaScript file must contain the <script> tag.",
+      "correctAnswer": "False",
+      "options": ["True", "False"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 4,
+      "questionType": "multiple_choice",
+      "questionText": "4. How do you create a function in JavaScript?",
+      "correctAnswer": "function myFunction()",
+      "options": ["function myFunction()", "function = myFunction()", "function:myFunction()","function = myFunction"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 5,
+      "questionType": "text_input",
+      "questionText": "5. How do you call a function named myFunction?",
+      "correctAnswer": "myFunction()",
+      "answerFieldId": "answer_to_question",
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 6,
+      "questionType": "multiple_choice",
+      "questionText": "6. How to write an IF statement in JavaScript?",
+      "correctAnswer": "if (i == 5)",
+      "options": ["if i = 5", "if (i == 5)", "if i = 5 then", "if i == 5 then"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 7,
+      "questionType": "text_input",
+      "questionText": "7. ___________  is the event that occurs when the user clicks on an HTML element",
+      "correctAnswer": "onclick",
+      "answerFieldId": "answer_to_question",
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 8,
+      "questionType": "multiple_choice",
+      "questionText": "8. How does a WHILE loop start?",
+      "correctAnswer": "while (i <= 10)",
+      "options": ["while (i <= 10; i++)", "while i = 1 to 10", "while (i <= 10)", "(while i=1)"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 9,
+      "questionType": "multiple_choice",
+      "questionText": "9. How does a FOR loop start?",
+      "correctAnswer": "for (i = 0; i <= 5; i++)",
+      "options": ["for (i = 0; i <= 5; i++)", "for (i = 0; i <= 5)", "for i = 1 to 5", "for (i <= 5; i++)"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 10,
+      "questionType": "text_input",
+      "questionText": "10. Declare a JavaScript variable named carName",
+      "correctAnswer": "var carName;",
+      "answerFieldId": "answer_to_question",
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 11,
+      "questionType": "multiple_choice",
+      "questionText": "11. How can you add a comment in a JavaScript?",
+      "correctAnswer": "//This is a comment",
+      "options": ["//This is a comment", "<!--This is a comment-->", "'This is a comment", "This is a comment//"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 12,
+      "questionType": "multiple_choice",
+      "questionText": "12. How to insert a comment that has more than one line?",
+      "correctAnswer": "/*This comment has more than one line*/ ",
+      "options": ["//This comment has more than one line//", "<!--This comment has more than one line-->", "/*This comment has more than one line*/","This comment has more than one line//"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 13,
+      "questionType": "multiple_choice",
+      "questionText": "13. How do you round the number 7.25, to the nearest integer?",
+      "correctAnswer": "Math.round(7.25)",
+      "options": ["round(7.25)", "rnd(7.25)", "Math.round(7.25)", "Math.rnd(7.25)"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 14,
+      "questionType": "multiple_choice",
+      "questionText": "14. How do you find the number with the highest value of x and y?",
+      "correctAnswer": "Math.max(x, y)",
+      "options": ["top(x, y)", "Math.max(x, y)", "Math.ceil(x, y)", "ceil(x, y)"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 15,
+      "questionType": "text_input",
+      "questionText": "15. Which operator is used to assign a value to a variable?",
+      "correctAnswer": "=",
+      "answerFieldId": "answer_to_question",
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 16,
+      "questionType": "multiple_choice",
+      "questionText": "16. How can you detect the client's browser name?",
+      "correctAnswer": "navigator.appName",
+      "options": ["browser.name", "client.navName", "navigator.appName", "appname.browser"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 17,
+      "questionType": "true_false",
+      "questionText": "17. What will the following code return: Boolean(8 > 9)",
+      "correctAnswer": "False",
+      "options": ["True", "False"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 18,
+      "questionType": "true_false",
+      "questionText": "18. JavaScript is case-sensitive",
+      "correctAnswer": "True",
+      "options": ["True", "False"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 19,
+      "questionType": "true_false",
+      "questionText": "19. JavaScript is the same as Java.",
+      "correctAnswer": "False",
+      "options": ["True", "False"],
+      "feedback": ["Correct!"]
+    },
+    {
+      "id": 20,
+      "questionType": "true_false",
+      "questionText": "20. What will the following code return: Boolean(10 > 9)",
+      "correctAnswer": "True",
+      "options": ["True", "False"],
+      "feedback": ["Correct!"]
+    }
+  ]
+}
