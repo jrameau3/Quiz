@@ -10,10 +10,10 @@
     },
     {
       "id": 2,
-      "questionType": "checkbox",
+      "questionType": "multiple_choice",
       "questionText": "2. Where is the correct place to insert a JavaScript?",
-      "correctAnswer": ["The <head> section","The <body> section"],
-      "options": ["The <head> section", "The <body> section", "The <h1> section", "All of the above"],
+      "correctAnswer": ["The <head> section"],
+      "options": ["The <head> section", "The <style> section", "The <h1> section", "All of the above"],
       "feedback": ["Correct!"]
     },
     {
